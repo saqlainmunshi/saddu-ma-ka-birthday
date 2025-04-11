@@ -177,3 +177,33 @@
 .fade-image {
   animation: fadeInImage 5s ease;
 }
+
+/* Make memory blocks responsive */
+.memory {
+  width: 90vw; /* dynamic width based on screen */
+  max-width: 300px;
+}
+
+/* Scale gallery images for small screens */
+.memory img {
+  height: auto;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+/* Responsive text */
+body, p, h1, h2 {
+  font-size: clamp(14px, 2vw, 22px);
+}
+
+/* Improve spacing on smaller screens */
+.container {
+  padding: 20px 10px;
+}
+
+/* Letter text readable on mobile */
+.letter {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
