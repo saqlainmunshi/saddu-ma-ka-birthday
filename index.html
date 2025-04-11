@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday My Love ❤️</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="hearts"></div>
+
+  <div class="container">
+    <h1> Happy Birthday, My Love! 🎂</h1>
+    <p>You make the world brighter just by being in it. Even if we're far apart today, my heart is always with you. 💕
+    </p>
+
+    <button onclick="toggleLetter()">Open Your Letter 💌</button>
+    <div id="letter" class="letter">
+      <h2>My Dearest Saddu ma,</h2>
+      <p id="typedText" class="typed-text"></p>
+    </div>
+
+    <div id="memories" style="display: none; text-align: center; margin-top: 30px;">
+      <h2>💖 Our Beautiful Memories 💖</h2>
+      <!-- This part will show 3 photos at a time -->
+      <div class="memory-gallery" id="memoryGallery"></div>
+
+      <!-- Hidden part that stores all the photos -->
+      <div id="allMemories" style="display: none;">
+        <div class="memory">
+          <img src="images/img1.jpg" alt="Memory 1">
+          <p>the most honest way to say, 'You're safe with me' 💖🙏</p>
+        </div>
+        <div class="memory">
+          <img src="images/img2.jpg" alt="Memory 2">
+          <p>That warm hug... I can still feel it 🫂💖</p>
+        </div>
+        <div class="memory">
+          <img src="images/img3.jpg" alt="Memory 3">
+          <p>Side by side or miles apart, you’re always beside me in my heart 🫶❤️</p>
+        </div>
+        <div class="memory">
+          <img src="images/img4.jpg" alt="Memory 4">
+          <p>That cute date day 😍</p>
+        </div>
+        <div class="memory">
+          <img src="images/img5.jpg" alt="Memory 5">
+          <p>Every side-by-side photo reminds me — we’re perfect together ✨</p>
+        </div>
+        <div class="memory">
+          <img src="images/img6.jpg" alt="Memory 6">
+          <p>Us laughing like there’s no tomorrow 😂❤️</p>
+        </div>
+        <div class="memory">
+          <img src="images/img7.jpg" alt="Memory 6">
+          <p>With her, even silence turns into a beautiful memory 🎶💞</p>
+        </div>
+        <div class="memory">
+          <img src="images/img8.jpg" alt="Memory 6">
+          <p>Your smile is my favorite sunrise — it lights up my entire world ☀️💓</p>
+        </div>
+        <div class="memory">
+          <img src="images/img9.jpg" alt="Memory 6">
+          <p>She hides her face... but never her love. My forever shy queen 🥺👑💞</p>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- Background music -->
+    <audio id="bgMusic" loop>
+      <source src="music.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
